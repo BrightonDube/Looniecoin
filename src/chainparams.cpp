@@ -82,8 +82,8 @@ public:
         consensus.BIP65Height = 918684; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
         consensus.BIP66Height = 811879; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
-        consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
-        consensus.nPowTargetSpacing = 2.5 * 60;
+        consensus.nPowTargetTimespan = 0.25 * 24 * 60 * 60; // 6 hours
+        consensus.nPowTargetSpacing = 0.5 * 60; //30 Seconds        
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
@@ -113,10 +113,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xb4;
-        pchMessageStart[1] = 0xba;
-        pchMessageStart[2] = 0xa5;
-        pchMessageStart[3] = 0xc3;
+        pchMessageStart[0] = 0xfd;
+        pchMessageStart[1] = 0xd2;
+        pchMessageStart[2] = 0xc8;
+        pchMessageStart[3] = 0xf1;
         nDefaultPort = 9631;
         nPruneAfterHeight = 100000;
 
@@ -135,9 +135,9 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
-        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,4);
+        base58Prefixes[EXT_PUBLIC_KEY] = {0xf1, 0x88, 0xB2, 0x1E};
+        base58Prefixes[EXT_SECRET_KEY] = {0xf1, 0x88, 0xAD, 0xE4};
 
         bech32_hrp = "ltc";
 
