@@ -1,9 +1,9 @@
-Looniecoin Core integration/staging tree
+Loonie Network integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/looniecoin-project/looniecoin.svg?branch=master)](https://travis-ci.org/looniecoin-project/looniecoin)
 
-https://looniecoin.org
+https://loonienetwork.online
 
 What is Looniecoin?
 ----------------
