@@ -43,7 +43,7 @@ config file):
 
 	HiddenServiceDir /var/lib/tor/looniecoin-service/
 	HiddenServicePort 9631 127.0.0.1:9631
-	HiddenServicePort 19335 127.0.0.1:19335
+	HiddenServicePort 19631 127.0.0.1:19631
 
 The directory can be different of course, but (both) port numbers should be equal to
 your looniecoind's P2P listen port (9631 by default).
