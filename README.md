@@ -15,19 +15,19 @@ out collectively by the network. Looniecoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Looniecoin Core software, see [https://looniecoin.org](https://looniecoin.org).
+the Looniecoin Core software, see [https://loonienetwork.online](https://loonienetwork.online).
 
 License
 -------
 
-Looniecoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Loonie Network is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/looniecoin-project/looniecoin/tags) are created
+completely stable. [Tags](https://github.com/looniecoin/looniecoin/tags) are created
 regularly to indicate new official, stable release versions of Looniecoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
