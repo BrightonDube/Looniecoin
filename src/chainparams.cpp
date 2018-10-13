@@ -120,10 +120,10 @@ public:
         nDefaultPort = 9631;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1539327533, 2086161828, 0x1e0ffff0, 1, 45 * COIN);
+        genesis = CreateGenesisBlock(1539452987, 2087303743, 0x1e0ffff0, 1, 45 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000beadbfc807274dbd082855347b82aed386819c25e0af66e3c937380cf06"));
-        assert(genesis.hashMerkleRoot == uint256S("0x4b56405687fc5ddcc9d1d097d01c746a61610d5281dacc9bdb388a6cbd7d8a96"));
+        assert(consensus.hashGenesisBlock == uint256S("0xaaa47eedfbfa82dc3e972ced3bd7ec908d183d721a6527ce87e6e885c743426c"));
+        assert(genesis.hashMerkleRoot == uint256S("0x0e9684b085bca4f94d5b0991153332b7d2a4c9b19ac25e707822c92ec0183389"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         // vSeeds.emplace_back("seed-a.looniecoin.loshan.co.uk");
